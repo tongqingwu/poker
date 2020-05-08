@@ -10,4 +10,9 @@
 7. During game start playing time, user remove the card from own page.
 
 ## Design 
-1. Each player have hand of cards with order.
+- 
+- Each player have hand of cards with order.
+
+## Setup
+- Node need to be installed.
+- Express for node as well

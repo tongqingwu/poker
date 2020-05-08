@@ -1,4 +1,4 @@
-var set = 4
+var set = 1
 var player = 8
 var decks = new Array()
 
@@ -15,10 +15,10 @@ function getDeck(set)
 		for(var x = 0; x < cards.length; x++)
 		{
 			var card = {Value: cards[x], Suit: suits[i]};
-			for(var i = 0; i < set; i++)
-			{
+//			for(var i = 0; i < set; i++)
+//			{
 				deck.push(card);
-			}
+//			}
 		}
 	}
 

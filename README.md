@@ -10,9 +10,20 @@
 7. During game start playing time, user remove the card from own page.
 
 ## Design 
-- 
 - Each player have hand of cards with order.
 
+## File structure
+   poker/index.html
+        /poker.js
+        /public/main.js
+               /css/main.css
+                   /card.png
+         
 ## Setup
 - Node need to be installed.
 - Express for node as well
+  npm install express --save
+  npm install -g express
+
+## Run
+- node poker.js
